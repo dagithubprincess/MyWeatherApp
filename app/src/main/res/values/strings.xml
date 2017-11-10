@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Weather</string>
+    <string name="weathericon">weatherIcon</string>
+    <string name="google_maps_key">AIzaSyAV5ZGH8x9PdZIbf52bhqqj-F6KvLRORYo</string>
+</resources>

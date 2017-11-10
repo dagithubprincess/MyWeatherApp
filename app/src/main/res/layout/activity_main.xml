@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="bryonyair.example.com.myweatherapp.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/my_date"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/my_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/weathericon"
+        android:layout_weight="1"
+        android:padding="1dp"/>
+
+    <TextView
+        android:id="@+id/my_min_temp"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/my_max_temp"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:padding="5dp"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/my_place"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
